@@ -1,0 +1,11 @@
+/Users/platano/Desktop/C_Tutorial/tutorial_1.c:15:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+main(){
+^
+/Users/platano/Desktop/C_Tutorial/tutorial_1.c:17:6: warning: incompatible pointer to integer conversion initializing 'char' with an expression of type 'char [2]' [-Wint-conversion]
+char firstLetter = "D";
+     ^             ~~~
+/Users/platano/Desktop/C_Tutorial/tutorial_1.c:31:40: error: expected ';' after expression
+printf("this will print to screen\n\n")
+                                       ^
+                                       ;
+2 warnings and 1 error generated.
